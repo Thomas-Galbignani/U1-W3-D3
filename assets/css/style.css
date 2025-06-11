@@ -1,0 +1,91 @@
+body {
+  background: #7a07b0;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 7, 176, 1) 0%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(0, 212, 255, 1) 53%
+  );
+  text-align: center;
+}
+
+main {
+  background-color: whitesmoke;
+  width: 550px;
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+form label {
+  display: inline-block;
+}
+form div {
+  text-align: center;
+}
+#aggiunte {
+  text-align: start;
+}
+.btn {
+  cursor: pointer;
+  border: solid rgb(204, 0, 105);
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  transition: 2s;
+  width: 335px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 102, 204) 0%,
+    rgb(197, 0, 204) 100%
+  );
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  width: 337px;
+  background: rgb(0, 102, 204) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border-color: rgb(204, 0, 105);
+  border-width: 2px;
+  border-style: solid;
+}
+p {
+  border-radius: 12px;
+  height: 3em;
+  background-color: #7a07b0;
+  color: whitesmoke;
+  padding-top: 20px;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  cursor: pointer;
+  border: solid rgb(204, 0, 105);
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  transition: 2s;
+  width: 335px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(79, 101, 123) 0%,
+    rgb(107, 60, 109) 100%
+  );
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+  width: 337px;
+  background: rgb(8, 40, 71) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border-color: rgb(83, 4, 45);
+  border-width: 2px;
+  border-style: solid;
+}
