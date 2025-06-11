@@ -14,11 +14,18 @@ doForm.addEventListener(`submit`, (e) => {
   longCard.innerHTML = `
 
 <p>${aggiunte.things}</p> 
-
+<button onclick="fatto(event)">ELIMINA</button>
 `;
 
   const fare = document.getElementById(`long-cards`);
   fare.appendChild(longCard);
 
+  longCard.addEventListener("click", () => {
+    longCard.classList.add("linea");
+  });
   doForm.reset();
 });
+
+const fatto = function (e) {
+  e.target.parentElement.remove();
+};

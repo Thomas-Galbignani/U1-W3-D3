@@ -19,14 +19,30 @@ main {
   margin-right: auto;
   padding: 20px;
 }
+h2 {
+  font-size: 2em;
+}
 form label {
   display: inline-block;
+  font-size: 1.5em;
 }
 form div {
   text-align: center;
 }
+form input {
+  background-color: #383838;
+  border-radius: 35px;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+}
+form input:hover {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+}
 #aggiunte {
-  text-align: start;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .btn {
   cursor: pointer;
@@ -63,7 +79,7 @@ p {
   font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
 }
-.button {
+#long-cards button {
   cursor: pointer;
   border: solid rgb(204, 0, 105);
   font-size: 14px;
@@ -80,7 +96,7 @@ p {
   );
 }
 
-.button:hover {
+#long-cards button:hover {
   color: rgb(255, 255, 255);
   width: 337px;
   background: rgb(8, 40, 71) none repeat scroll 0% 0% / auto padding-box
@@ -88,4 +104,8 @@ p {
   border-color: rgb(83, 4, 45);
   border-width: 2px;
   border-style: solid;
+}
+.linea {
+  text-decoration: line-through;
+  text-decoration-thickness: 5px;
 }
